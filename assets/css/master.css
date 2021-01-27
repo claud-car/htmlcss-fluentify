@@ -7,6 +7,12 @@
 
 /* INIZIO TAG HEADER */
 
+.container:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .bg-blue{
   background-color: #0C325A;
 }
@@ -21,12 +27,6 @@ margin-bottom: 10px;
   height:80px;
   line-height: 80px;
   text-align: center;
-}
-
-.container1{
-  width: 100%;
-  height:80px;
-  line-height: 80px;
 }
 
 .bordo{
@@ -110,4 +110,40 @@ ul li{
   font-size: 25px;
   font-weight:bold;
   padding-top: 20px;
+}
+
+.row{
+  position: relative;
+}
+
+[class^=col-]{
+  width: 32%;
+  height: 700px;
+  display: inline-block;
+  text-align: center;
+}
+
+.img-row1{
+  height: 200px;
+  margin-top: 50px;
+  padding-left: 60px;
+}
+
+h3{
+  margin-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 37px;
+  color: #228B22;
+}
+
+hr{
+  margin-top: 40px;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.grey-text{
+  color: grey;
+
 }
