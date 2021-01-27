@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+/* TAG HEADER */
+
+.bg-blue{
+  background-color: #0C325A;
+}
+
+.logo{
+vertical-align: middle;
+margin-bottom: 10px;
+}
+
+.nav-sup{
+  width: 100%;
+  height:80px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.bordo{
+  border: 1px solid white;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.bg-green{
+  background-color: #228B22;
+}
+
+.banner{
+  width: 100%;
+  height:600px;
+  position: relative;
+}
+
+.back-head-img{
+  height:80%;
+  width:70%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+ul{
+  display: inline;
+  vertical-align: middle;
+  margin: 0 80px;
+}
+
+ul li{
+  display: inline;
+  vertical-align: middle;
+  margin: 0 10px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+h1{
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top:30%;
+  width:40%;
+  left: 12%
+}
+
+p{
+  display: inline;
+  font-size: 20px;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
