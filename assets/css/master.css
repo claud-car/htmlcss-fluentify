@@ -62,18 +62,19 @@ ul li{
   font-weight: bold;
 }
 
-h1{
+.text{
   color: white;
-  font-size: 60px;
+  font-size: 30px;
   position: absolute;
   top:30%;
   width:40%;
-  left: 12%
+  left: 12%;
 }
 
 p{
-  display: inline;
-  font-size: 20px;
-  padding: 30px 20px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 30px 30px;
   border-radius: 10px;
+  margin-top: 40px;
 }
