@@ -131,33 +131,39 @@ ul li{
   padding: 0 30px;
 }
 
-.col100{
+.col50{
   width: 40%;
   display: inline-block;
-  margin-left: 85px;
-  vertical-align:
-
+  margin-left: 70px;
+  margin-right: 50px;
+  vertical-align: top;
 }
 
 .img-row1{
   height: 200px;
   margin-top: 50px;
-  margin: 40px 40px;
+  margin: 40px auto;
 }
 
+.img-mountain{
+  height: 450px;
+}
 
 .row h3{
-
   font-size: 30px;
   color: #7CBB01;
   padding: 20px 0;
 }
 
-.row hr{
+#hr-btw-text{
   margin-top: 40px;
   margin-bottom: 30px;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+ #rowhr{
+  margin: 5% 5%;
 }
 
 .grey-text{
@@ -166,10 +172,82 @@ ul li{
   margin: 0 65px;
 }
 
-hr{
-  margin: 5%;
+.col50 h4{
+  text-align: left;
+  margin-right: 40%;
+  font-size: 30px;
+  margin-bottom: 10px;
 }
 
-.row h3{
-  vertical-align:top;
+.col50 p{
+  color: grey;
+  font-size: 17px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.col50 a{
+  font-size: 15px;
+  margin-right: 65%;
+}
+
+/* TAG FOOTER */
+
+.grey-box-footer{
+width: 100%;
+height: 200px;
+background-color:lightgrey;
+float: left;
+margin-top: 20px;
+line-height: 200px;
+display: inline-block;
+}
+
+.colfooter{
+  width: 49%;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.colfooter h2{
+  font-size: 30px;
+  text-align: center;
+}
+
+.footer-text{
+  margin-left: 25%;
+}
+
+.footer-text span,select{
+  color: grey;
+  border: none;
+  font-size: 18px;
+}
+
+select{
+  padding: 0 30px;
+  background-color: lightgrey;
+  text-decoration:underline;
+}
+
+.btn{
+  border: none;
+  border-radius: 10px;
+  padding:25px 5px;
+  margin-left: 15px;
+  color: white;s
+}
+
+footer{
+  position: relative;
+}
+
+.help{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: green;
+  width: 5%;
+  height:10%;
+  z-index: 2;
 }
