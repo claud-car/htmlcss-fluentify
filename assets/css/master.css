@@ -7,7 +7,7 @@
 
 /* INIZIO TAG HEADER */
 
-.container:after{
+.row:after{
   content: "";
   clear: both;
   display: table;
@@ -117,24 +117,18 @@ ul li{
   padding-top: 20px;
 }
 
-.row1{
-  margin: 0 5%;
+.row{
+  width: 100%;
   text-align: center;
+  float: left;
 }
 
-.row2{
-  margin: 0 5%;
-  text-align: center;
-}
-
-.row3{
-  margin: 0 10%;
-}
 
 [class^=col-]{
   width: 30%;
   display:inline-block;
   vertical-align: top;
+  padding: 0 30px;
 }
 
 .col100{
@@ -148,16 +142,18 @@ ul li{
 .img-row1{
   height: 200px;
   margin-top: 50px;
+  margin: 40px 40px;
 }
 
-.row2 h3{
+
+.row h3{
 
   font-size: 30px;
   color: #7CBB01;
   padding: 20px 0;
 }
 
-.row2 hr{
+.row hr{
   margin-top: 40px;
   margin-bottom: 30px;
   margin-left: 40%;
@@ -171,10 +167,9 @@ ul li{
 }
 
 hr{
-  margin: 5% 5%;
+  margin: 5%;
 }
 
-.row3 h3{
-  vertical-align:
-  
+.row h3{
+  vertical-align:top;
 }
