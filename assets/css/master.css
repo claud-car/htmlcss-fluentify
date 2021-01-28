@@ -127,10 +127,22 @@ ul li{
   text-align: center;
 }
 
+.row3{
+  margin: 0 10%;
+}
+
 [class^=col-]{
   width: 30%;
   display:inline-block;
   vertical-align: top;
+}
+
+.col100{
+  width: 40%;
+  display: inline-block;
+  margin-left: 85px;
+  vertical-align:
+
 }
 
 .img-row1{
@@ -138,14 +150,14 @@ ul li{
   margin-top: 50px;
 }
 
-h3{
+.row2 h3{
 
-  font-size: 35px;
+  font-size: 30px;
   color: #7CBB01;
   padding: 20px 0;
 }
 
-hr{
+.row2 hr{
   margin-top: 40px;
   margin-bottom: 30px;
   margin-left: 40%;
@@ -156,4 +168,13 @@ hr{
   color: grey;
   font-size: 20px;
   margin: 0 65px;
+}
+
+hr{
+  margin: 5% 5%;
+}
+
+.row3 h3{
+  vertical-align:
+  
 }
