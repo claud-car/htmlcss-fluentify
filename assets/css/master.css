@@ -238,8 +238,12 @@ select{
   color: white;s
 }
 
+.tasto-int{
+  position: relative;
+}
+
 .help{
-  float: right;
+  position: absolute;
   background-color:#7CBB01 ;
   width: 4%;
   padding-top:20px;
@@ -249,5 +253,5 @@ select{
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   border:none;
-  margin-right: 20%;
+  /* margin-right: 20%; */
 }
